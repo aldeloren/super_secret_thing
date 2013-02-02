@@ -12,9 +12,9 @@
 	<key>Location</key>
 	<dict>
 		<key>DefaultCenter</key>
-		<string>42.3944, -71.1453</string>
+		<string>29.645332,-82.347910</string>
 		<key>DefaultZoom</key>
-		<string>16</string>
+		<string>15</string>
 	</dict>
 	<key>Modules</key>
 	<array>
@@ -79,6 +79,8 @@
 		<dict>
 			<key>id</key>
 			<string>content</string>
+			<key>hidden</key>
+			<true/>
 			<key>tag</key>
 			<string>admissions</string>
 			<key>title</key>
@@ -87,6 +89,8 @@
 		<dict>
 			<key>id</key>
 			<string>customize</string>
+			<key>hidden</key>
+			<true/>
 			<key>secondary</key>
 			<true/>
 			<key>tag</key>
@@ -96,43 +100,75 @@
 		</dict>
 		<dict>
 			<key>id</key>
-			<string>fullweb</string>
-			<key>payload</key>
-			<dict>
-				<key>url</key>
-				<string>http://www.modolabs.com</string>
-			</dict>
-			<key>secondary</key>
-			<true/>
-			<key>tag</key>
-			<string>fullweb</string>
-			<key>title</key>
-			<string>Full Website</string>
-		</dict>
-		<dict>
-			<key>id</key>
-			<string>fullweb</string>
-			<key>payload</key>
-			<dict>
-				<key>url</key>
-				<string>http://m.modolabs.com</string>
-			</dict>
-			<key>secondary</key>
-			<true/>
-			<key>tag</key>
-			<string>mobileweb</string>
-			<key>title</key>
-			<string>Mobile Website</string>
-		</dict>
-		<dict>
-			<key>id</key>
 			<string>about</string>
+			<key>hidden</key>
+			<true/>
 			<key>secondary</key>
 			<true/>
 			<key>tag</key>
 			<string>about</string>
 			<key>title</key>
 			<string>About</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>fullweb</string>
+			<key>payload</key>
+			<dict>
+				<key>url</key>
+				<string>http://lss.at.ufl.edu/mobile</string>
+			</dict>
+			<key>tag</key>
+			<string>lss</string>
+			<key>title</key>
+			<string>e-Learning</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>fullweb</string>
+			<key>payload</key>
+			<dict>
+				<key>url</key>
+				<string>https://my.ufl.edu/psp/ps/EMPLOYEE/SA/s/WEBLIB_UF.ISCRIPT1.FieldFormula.IScript_map</string>
+			</dict>
+			<key>tag</key>
+			<string>pay</string>
+			<key>title</key>
+			<string>Make a Payment</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>fullweb</string>
+			<key>payload</key>
+			<dict>
+				<key>url</key>
+				<string>http://url.transloc.com/m/</string>
+			</dict>
+			<key>tag</key>
+			<string>rts</string>
+			<key>title</key>
+			<string>RTS</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>fullweb</string>
+			<key>payload</key>
+			<dict>
+				<key>url</key>
+				<string>http://www.isis.ufl.edu/mobile</string>
+			</dict>
+			<key>tag</key>
+			<string>isis</string>
+			<key>title</key>
+			<string>ISIS</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>links</string>
+			<key>tag</key>
+			<string>links</string>
+			<key>title</key>
+			<string>Quick Links</string>
 		</dict>
 	</array>
 	<key>Servers</key>
@@ -142,9 +178,9 @@
 			<key>APIPath</key>
 			<string>rest</string>
 			<key>Host</key>
-			<string>kurogo.org</string>
+			<string>aldelorenzo.dev.webadmin.ufl.edu</string>
 			<key>PathExtension</key>
-			<string>universitas</string>
+			<string></string>
 			<key>UseHTTPS</key>
 			<false/>
 		</dict>
@@ -153,9 +189,9 @@
 			<key>APIPath</key>
 			<string>rest</string>
 			<key>Host</key>
-			<string>kurogo.org</string>
+			<string>aldelorenzo.dev.webadmin.ufl.edu</string>
 			<key>PathExtension</key>
-			<string>universitas</string>
+			<string></string>
 			<key>UseHTTPS</key>
 			<false/>
 		</dict>
@@ -164,9 +200,9 @@
 			<key>APIPath</key>
 			<string>rest</string>
 			<key>Host</key>
-			<string>kurogo.org</string>
+			<string>aldelorenzo.dev.webadmin.ufl.edu</string>
 			<key>PathExtension</key>
-			<string>universitas</string>
+			<string></string>
 			<key>UseHTTPS</key>
 			<false/>
 		</dict>
@@ -175,9 +211,9 @@
 			<key>APIPath</key>
 			<string>rest</string>
 			<key>Host</key>
-			<string>kurogo.org</string>
+			<string>aldelorenzo.dev.webadmin.ufl.edu</string>
 			<key>PathExtension</key>
-			<string>universitas</string>
+			<string></string>
 			<key>UseHTTPS</key>
 			<false/>
 		</dict>

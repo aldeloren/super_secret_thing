@@ -236,7 +236,7 @@
 		<key>SecondaryModuleListSpacing</key>
 		<string>28 30</string>
 		<key>ShowsSearchBar</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Images</key>
 	<dict>

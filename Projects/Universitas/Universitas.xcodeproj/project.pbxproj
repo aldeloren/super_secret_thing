@@ -1573,6 +1573,8 @@
 		EB83AE5713C75B2B006CCEDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1589,6 +1591,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB83AE5C13C75C0C006CCEDB /* staging.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Staging;
 		};
@@ -1605,6 +1609,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBC1C7051347B8D20045CE9C /* release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
