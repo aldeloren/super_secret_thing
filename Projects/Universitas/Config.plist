@@ -113,6 +113,8 @@
 		<dict>
 			<key>id</key>
 			<string>fullweb</string>
+			<key>secondary</key>
+			<true/>
 			<key>payload</key>
 			<dict>
 				<key>url</key>
@@ -126,6 +128,8 @@
 		<dict>
 			<key>id</key>
 			<string>fullweb</string>
+			<key>secondary</key>
+			<true/>
 			<key>payload</key>
 			<dict>
 				<key>url</key>
@@ -152,6 +156,8 @@
 		<dict>
 			<key>id</key>
 			<string>fullweb</string>
+			<key>secondary</key>
+			<true/>
 			<key>payload</key>
 			<dict>
 				<key>url</key>

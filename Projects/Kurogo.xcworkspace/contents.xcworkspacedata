@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Universitas/Universitas.xcodeproj">
+      location = "group:Universitas/UF Mobile.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../Contrib/JSON/JSON.xcodeproj">
