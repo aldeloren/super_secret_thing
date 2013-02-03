@@ -26,7 +26,7 @@
 		<key>BodyText</key>
 		<dict>
 			<key>color</key>
-			<string>#171717</string>
+			<string>#FF0000</string>
 			<key>font</key>
 			<string>Helvetica</string>
 			<key>size</key>
@@ -142,14 +142,14 @@
 			<key>bold</key>
 			<true/>
 			<key>color</key>
-			<string>#505050</string>
+			<string>#FBFBFB</string>
 			<key>size</key>
 			<integer>2</integer>
 		</dict>
 		<key>SmallPrint</key>
 		<dict>
 			<key>color</key>
-			<string>#505050</string>
+			<string>#FBFBFB</string>
 			<key>size</key>
 			<integer>-3</integer>
 		</dict>

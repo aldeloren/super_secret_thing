@@ -126,7 +126,7 @@
     }
 
     // set up search bar
-    _searchBar.placeholder = NSLocalizedString(@"Map Search Placeholder", nil);
+    _searchBar.placeholder = NSLocalizedString(@"Search", nil);
 	_searchController = [[KGOSearchDisplayController alloc] initWithSearchBar:_searchBar delegate:self contentsController:self];
     if (self.searchTerms) {
         _searchBar.text = self.searchTerms;
