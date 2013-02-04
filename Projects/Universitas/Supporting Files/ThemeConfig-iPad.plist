@@ -200,7 +200,7 @@
 	<key>HomeScreen</key>
 	<dict>
 		<key>BackgroundColor</key>
-		<string>modules/home/home-background.png</string>
+		<string>modules/home/ipad-home-background.png</string>
 		<key>ModuleIconSize</key>
 		<string>66 66</string>
 		<key>ModuleLabelFont</key>

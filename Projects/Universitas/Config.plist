@@ -5,9 +5,9 @@
 	<key>Analytics</key>
 	<dict>
 		<key>AccountID</key>
-		<string></string>
+		<string>UA-38184154-2</string>
 		<key>Provider</key>
-		<string></string>
+		<string>Google</string>
 	</dict>
 	<key>Location</key>
 	<dict>
